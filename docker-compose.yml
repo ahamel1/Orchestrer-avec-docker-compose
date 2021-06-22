@@ -1,0 +1,9 @@
+# ce fichier va lister les images des conteneurs que l'ont veut démarrer pour faire fonctionner une application
+
+services:
+  server:
+      image: express-docker
+      ports: 
+          - 5050:5000
+  mongodb:
+      image: mongo
